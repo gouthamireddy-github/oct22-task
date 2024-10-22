@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 300px;
+    width: 300px;
+    background-color: lightgrey;
+}
+@media screen and (width<600px)
+{
+    .container{
+        background-color: lightblue;
+    }
+}
+@media screen and (width>600px) and (width<1024px){
+    .container{
+        background-color: lightgreen;
+    }
+}
